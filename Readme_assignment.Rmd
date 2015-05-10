@@ -1,0 +1,20 @@
+---
+title: "Readme_assignment"
+output: html_document
+---
+
+Included are the scripts that generate the plots and the corresponding outputs as png files.
+Please note that for R versions prior to 3.1.3 sourcing ```library("ggplot2")``` causes an error/warning and in the end nothing is either plotted or saved. To circumvent this just load ggplot2 in 
+the console and source the script except for that line.
+
+To optimize multiple runs the script checks the environment and avoids unnecessary calculations. It also calculates the memory usage of the two first two big data frames.
+
+The script plot4.R includes the function "multiplot" that I have downloaded from:
+
+http://www.cookbook-r.com/Graphs/Multiple_graphs_on_one_page_%28ggplot2%29/
+
+and I thank the author. It's been very useful.
+
+May 10, 2015
+
+
